@@ -1,10 +1,10 @@
 {
   "name": "util-plus",
   "version": "0.0.1",
-  "description": "A missing module for nodejs",
+  "description": "The last util you need for nodejs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "NODE_ENV=test mocha  test/**/*Spec.js -R spec"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,14 @@
   "bugs": {
     "url": "https://github.com/ZheFeng/util-plus/issues"
   },
-  "homepage": "https://github.com/ZheFeng/util-plus"
+  "homepage": "https://github.com/ZheFeng/util-plus",
+  "devDependencies": {
+    "chai": "^1.9.1"
+  },
+  "dependencies": {
+    "lodash": "^2.4.1",
+    "han": "0.0.7",
+    "node-uuid": "^1.4.1",
+    "slug": "^0.4.2"
+  }
 }
