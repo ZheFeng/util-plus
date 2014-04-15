@@ -1,0 +1,27 @@
+{
+  "name": "util-plus",
+  "version": "0.0.1",
+  "description": "A missing module for nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ZheFeng/util-plus.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "node.js",
+    "util",
+    "tool",
+    "tools"
+  ],
+  "author": "Zhe Feng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ZheFeng/util-plus/issues"
+  },
+  "homepage": "https://github.com/ZheFeng/util-plus"
+}
