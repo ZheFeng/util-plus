@@ -1,6 +1,7 @@
 var _ = require("lodash");
 var han = require('han');
 var slug = require('slug');
+var uuid = require('node-uuid')
 var buildInUtil = require('util');
 var util;
 
